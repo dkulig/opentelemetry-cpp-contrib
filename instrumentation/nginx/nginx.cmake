@@ -24,7 +24,7 @@ else()
 endif()
 
 ExternalProject_Add(project_nginx
-  URL "http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz"
+  URL "http://nginx.org/download/nginx-1.25.0.tar.gz"
   PREFIX "nginx"
   BUILD_IN_SOURCE 1
   CONFIGURE_COMMAND ./configure ${NGINX_CONFIGURE_ARGS}
